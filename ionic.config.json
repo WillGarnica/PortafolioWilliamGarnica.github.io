@@ -1,0 +1,7 @@
+{
+  "name": "PortafolioWilliamGarnica",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
