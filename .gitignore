@@ -75,6 +75,8 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
+build/
+public/
 
 # macOS
 .DS_Store
