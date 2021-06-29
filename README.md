@@ -1,6 +1,6 @@
 # 
 
-aplicacion en react native para front end de prueba de ingeneo
+aplicacion en react native para front end de portafolio
 
 desarrollo
 - para ejecutar la aplicacion en desarollo: expo start
@@ -10,5 +10,5 @@ desarrollo
     esta instruccion crea la carpeta 'web-build', y esta carpeta es la que toma firebase para hacer el despliegue
 
 produccion
-- para desplegar en firebase: firebase deploy --only hosting:prueba-ingeneo-frontend
+- para desplegar en firebase: firebase deploy --only hosting:portafoliowillamgarnica
     necesario instalar firebase, en este caso esta logeado a firebaase con la cuenta de elwillan@gmail.com
