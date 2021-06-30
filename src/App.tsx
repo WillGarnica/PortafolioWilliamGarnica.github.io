@@ -18,6 +18,7 @@ import '@ionic/react/css/text-alignment.css';
 import '@ionic/react/css/text-transformation.css';
 import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
+import ProductoRutVirtual from './pages/ProductoRutVirtual';
 
 /* Theme variables */
 import './theme/variables.css';
@@ -26,12 +27,9 @@ const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>
-        <Route exact path="/home">
-          <Home />
-        </Route>
-        <Route exact path="/">
-          <Redirect to="/home" />
-        </Route>
+        <Route exact path=""><Home /></Route>
+        <Route exact path="/"><Home /></Route>
+        <Route exact path="/ProyectoRutVirtual" component={ProductoRutVirtual}></Route>
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>

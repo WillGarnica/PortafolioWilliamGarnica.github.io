@@ -5,7 +5,7 @@ aplicacion en Ionic React para front end de portafolio
 desarrollo
 - para ejecutar la aplicacion en desarollo: ionic serve
 
-- para build web: firebase build
+- para build web: ionic build
     esta instruccion crea la carpeta 'build', y esta carpeta es la que toma firebase para hacer el despliegue
 
 produccion

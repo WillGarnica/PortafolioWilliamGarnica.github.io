@@ -76,7 +76,7 @@ npm-debug.*
 *.orig.*
 web-build/
 build/
-public/
+
 
 # macOS
 .DS_Store

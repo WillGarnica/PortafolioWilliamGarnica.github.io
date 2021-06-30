@@ -1,13 +1,14 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
+import { IonBackButton, IonContent, IonHeader, IonPage, IonRouterLink, IonTitle, IonToolbar } from '@ionic/react';
 import './Home.css';
+import '../components/ExploreContainer.css';
+
 
 const Home: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Blank</IonTitle>
+          <IonTitle>Portafolio William Garnica</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
@@ -16,7 +17,11 @@ const Home: React.FC = () => {
             <IonTitle size="large">Blank</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer />
+        <div className="container">
+          <strong>Proyecto Inscripción al RUT Virtual</strong>
+          <br/ >
+          <IonRouterLink routerLink="/ProyectoRutVirtual">Ver detalles del proyecto</IonRouterLink>
+        </div>
       </IonContent>
     </IonPage>
   );
