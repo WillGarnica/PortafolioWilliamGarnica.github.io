@@ -1,3 +1,28 @@
+portafolio william garnica
+
+- el codigo se pasa a la carpeta 'public', esto para un despliegue mas comodo a firebase, ya que con el comando 'firebase deploy', firebase toma el codigo de dicha carpeta y lo despliega
+- para desplegar en firebase 'firebase deploy'
+
+desarrollo
+- para ejecutar en desarrollo simplemente ejecutar /public/index.html
+
+produccion
+- para desplegar en firebase: firebase deploy --only hosting:portafoliowilliamgarnica
+    necesario instalar firebase, en este caso esta logeado a firebaase con la cuenta de elwillan@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Fractal by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
