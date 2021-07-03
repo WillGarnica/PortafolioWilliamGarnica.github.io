@@ -3610,6 +3610,25 @@ input, select, textarea {
 
 /* Header */
 
+
+.contenedor1 {
+	--align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
+	background-position: center center, center center;
+	background-attachment: initial, scroll;
+	background-size: auto, cover;
+
+}
+
 	#header {
 		background-color: #4696e5;
 		color: #d1e5f9;
