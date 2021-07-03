@@ -1,10 +1,7 @@
 portafolio william garnica
 
-- el codigo se pasa a la carpeta 'public', esto para un despliegue mas comodo a firebase, ya que con el comando 'firebase deploy', firebase toma el codigo de dicha carpeta y lo despliega
-- para desplegar en firebase 'firebase deploy'
-
 desarrollo
-- para ejecutar en desarrollo simplemente ejecutar /public/index.html
+- para ejecutar en desarrollo simplemente ejecutar /index.html
 
 produccion
 - para desplegar en firebase: firebase deploy --only hosting:portafoliowilliamgarnica
